@@ -9,7 +9,7 @@ services:
   app2:
     image: 'myapp:v2.0'
     ports:
-      - '8080'
+      - '8081'
     environment:
       INST_NUM: 3
     depends_on:
